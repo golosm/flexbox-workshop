@@ -4,33 +4,43 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .container {
   display: flex;
+  background-color: #dedede;
+  width: 80vw;
+  height: 55vh;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  background-color: #ddd;
+  margin: 100px auto;
 }
 
 .box {
+  width: 45%;
   padding: 15px;
-  font-size: 55px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
   color: #fff;
 }
 
 .box:nth-child(1) {
-  background-color: #810f0f;
+  background-color: #a02121;
 }
 
 .box:nth-child(2) {
-  background-color: rgb(14, 13, 92);
+  background-color: #187c63;
 }
 
 .box:nth-child(3) {
-  background-color: rgb(12, 87, 64);
+  background-color: #147414;
 }
 
 .box:nth-child(4) {
-  background-color: rgb(49, 8, 77);
+  background-color: #92730d;
 }
